@@ -1,1 +1,64 @@
-[]
+[
+  {
+    "patchName": "Custom branding icon for YouTube",
+    "options": [
+      {
+        "key": "AppIcon",
+        "value": "Revancify Red"
+      }
+    ]
+  },
+  {
+    "patchName": "Custom branding name for YouTube",
+    "options": [
+      {
+        "key": "AppName",
+        "value": "YouTube"
+      }
+    ]
+  },
+  {
+    "patchName": "Theme",
+    "options": [
+      {
+        "key": "DarkThemeBackgroundColor",
+        "value": "@android:color/black"
+      },
+      {
+        "key": "LightThemeBackgroundColor",
+        "value": "@android:color/white"
+      }
+    ]
+  },
+  {
+    "patchName": "Force player buttons background",
+    "options": [
+      {
+        "key": "BackgroundColor",
+        "value": "@android:color/transparent"
+      }
+    ]
+  },
+  {
+    "patchName": "Custom branding icon YouTube Music",
+    "options": [
+      {
+        "key": "AppIcon",
+        "value": "Revancify Red"
+      }
+    ]
+  },
+  {
+    "patchName": "Custom branding name YouTube Music",
+    "options": [
+      {
+        "key": "AppNameNotification",
+        "value": "YT Music"
+      },
+      {
+        "key": "AppNameLauncher",
+        "value": "YT Music"
+      }
+    ]
+  }
+]
