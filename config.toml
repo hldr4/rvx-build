@@ -4,17 +4,19 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 # add 'enabled = false' for not patching a specific app or remove it from the config
 # you can use rvmm-config-gen to generate a config
 
-[YouTube]
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 cli-source = "inotia00/revanced-cli"
+cli-version = "v4.6.2"
 patches-source = "anddea/revanced-patches"
-integrations-source = "anddea/revanced-integrations"
 patches-version = "v2.232.0-dev.1"
+integrations-source = "anddea/revanced-integrations"
 integrations-version = "v0.159.0-dev.1"
-rv-brand = "RVX anddea"
 arch = "arm64-v8a"
 riplib = true
 build-mode = "module"
+
+[YouTube]
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+rv-brand = "RVX anddea"
 module-prop-name = "YT-RVX"
 included-patches = "'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Force player buttons background' 'Hide animated button background' 'Hide double tap to like animations' 'Force hide player buttons background' 'Hide player button background' 'Hide voice search button'"
 excluded-patches = "'Append time stamps information' 'Custom branding heading' 'Custom double tap length' 'Custom package name' 'Enable wide search bar' 'Keep landscape mode' 'Layout switch' 'Translations' 'Disable HDR auto brightness' 'Change player flyout panel toggles'"
@@ -22,15 +24,7 @@ version = "19.16.39"
 
 [YT Music]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
-cli-source = "inotia00/revanced-cli"
-patches-source = "anddea/revanced-patches"
-integrations-source = "anddea/revanced-integrations"
-patches-version = "v2.232.0-dev.1"
-integrations-version = "v0.159.0-dev.1"
 rv-brand = "RVX-Music anddea"
-arch = "arm64-v8a"
-riplib = true
-build-mode = "module"
 module-prop-name = "YTM-RVX"
 included-patches = "'Custom branding icon for YouTube Music' 'Custom branding name for YouTube Music' 'Hide voice search button'"
 excluded-patches = "'Certificate spoof' 'Custom package name' 'Custom playback speed' 'Translations' 'Enable old player layout' 'Enable old player background' 'Enable old style miniplayer' 'Enable color match player' 'Enable zen mode'"
